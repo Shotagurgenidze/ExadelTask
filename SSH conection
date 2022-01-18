@@ -1,0 +1,10 @@
+Frist of all we need download OpenSSH Client this program give access to remote machines ,in WindowsPowerShell To view the syntax of the ssh command,run : "ssh"If you see an error message saying the command isn’t found, you will need to sign out and sign in again. Rebooting your PC will also work.
+For example, to connect to an SSH server at ssh.example.com with the username “bob”, you’d run:
+ssh bob@ssh.example.com
+TROUBLESHOOTING SSH CONNECTIONS: 
+1. Ping your VPS
+Ping is Successful Now What?
+2. Use VNC to gain access if internet connection is established but SSH is not.
+3. Verify the VPS Firewall Rules
+4. Verify the SSH Service Status
+5. Verify the SSH Port
